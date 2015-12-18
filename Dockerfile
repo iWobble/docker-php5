@@ -16,6 +16,8 @@ RUN \
     php-pear \
     php-pecl-imagick \
     supervisor
+    
+RUN dnf clean all
 
 RUN \
     mkdir /opt/bin && \
